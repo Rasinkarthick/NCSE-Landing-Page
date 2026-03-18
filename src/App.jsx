@@ -18,7 +18,7 @@ function App() {
         <div>
           <h1>NCSE</h1>
           <p>
-            Hello message
+            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
         <button
