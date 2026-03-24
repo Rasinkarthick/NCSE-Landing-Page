@@ -1,5 +1,5 @@
-import Hero from '../components/Hero';
-import CarouselSection from '../components/CarouselSection';
+import Hero from '../components/sections/Hero';
+import CarouselSection from '../components/sections/CarouselSection';
 
 const Home = () => {
     const inaugurationImages = [

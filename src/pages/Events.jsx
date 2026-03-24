@@ -1,9 +1,18 @@
+import Section from '../components/ui/Section';
+import Container from '../components/ui/Container';
+import GradientText from '../components/ui/GradientText';
+
 const Events = () => {
     return (
-        <div className="container pt-40 min-h-[80vh] text-center">
-            <h1 className="gradient-text">Upcoming Events</h1>
-            <p className="mt-8">Stay tuned for our upcoming technical workshops, hackathons, and guest lectures.</p>
-        </div>
+        <Section className="min-h-screen pt-40" overlay>
+            <Container className="text-center">
+                <GradientText tag="h1">Upcoming Events</GradientText>
+                <p className="mt-8 text-slate-400 max-w-2xl mx-auto text-lg">
+                    Stay tuned for our upcoming technical workshops, hackathons, and guest lectures.
+                </p>
+            </Container>
+        </Section>
     );
 };
+
 export default Events;
